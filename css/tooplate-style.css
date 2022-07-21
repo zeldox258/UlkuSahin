@@ -1077,3 +1077,33 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
+
+
+
+.imgPatients{
+  height: 100px;
+}
+
+
+.patientsContainer{
+  display: flex;
+  width: 30%;
+  background-color: #ECE5C7;
+  height: 200px;
+  border-radius: 13px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+.containerOfAllPatients{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aboutText{
+  text-align: center;
+}
