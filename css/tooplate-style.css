@@ -9,7 +9,7 @@ http://www.tooplate.com/view/2098-health
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background: #ffffff;
+    background: #FF64C0;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -402,6 +402,9 @@ http://www.tooplate.com/view/2098-health
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0;
+  }
+  .slider{
+    margin-top: 20px;
   }
 
   .slider .container {
@@ -1106,4 +1109,9 @@ http://www.tooplate.com/view/2098-health
 
 .aboutText{
   text-align: center;
+}
+
+.logo-text{
+  background-color: #a5c422;
+  border-radius: 15px;
 }
