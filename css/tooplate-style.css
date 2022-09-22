@@ -147,6 +147,7 @@ http://www.tooplate.com/view/2098-health
   .news-thumb {
     background: #ffffff;
     border-radius: 10px;
+    height: 100%;
   }
   .news-thumb img {
     border-radius: 10px 10px 0 0;
@@ -317,6 +318,9 @@ http://www.tooplate.com/view/2098-health
     color: #393939;
     font-weight: 500;
   }
+  .appointment-generall{
+    margin-bottom: 20px;
+  }
 
   .navbar-default .navbar-brand .fa {
     color: #a5c422;
@@ -405,6 +409,7 @@ http://www.tooplate.com/view/2098-health
   }
   .slider{
     margin-top: 20px;
+    border-radius: 15px;
   }
 
   .slider .container {
@@ -1114,4 +1119,40 @@ http://www.tooplate.com/view/2098-health
 .logo-text{
   background-color: #a5c422;
   border-radius: 15px;
+}
+.yorumText{
+
+}
+.yorumlarButton{
+  width: 50%;
+  font-size: 50px;
+  background: #a5c422;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 12px;
+}
+
+.yorumlarButton a:hover {
+  background: #4267b2;
+  color: #ffffff !important;
+}
+
+.hastalikGeneral{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hastalikContainer{
+  position:relative;
+  width: 30%;
+  height: 150px;  
+  margin: 1%;
 }
